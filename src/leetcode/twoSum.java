@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -47,7 +49,7 @@ public class twoSum {
     public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 5};
         int target = 9;
-//        int[] result = twoSum(nums, target);
+//        int[] result = leetcode.twoSum(nums, target);
         int[] result = twoSum2(nums, target);
         System.out.println(result[0] + "," + result[1]);
     }
